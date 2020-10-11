@@ -5,7 +5,7 @@ function checkSpeed(speed) {
     const kmPerPoint = 5;
 
     if (speed < speedLimit+kmPerPoint){
-        console.log("speed ok"); // Speed in limit
+        console.log("speed ok"); // Speed limit normal
         return;
     }
     const points = Math.floor((speed-speedLimit)/kmPerPoint);
