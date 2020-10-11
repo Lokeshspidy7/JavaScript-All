@@ -15,5 +15,4 @@ function fizzBuzz (input){
     return 'buzz';
 
     return input;
-
 }
